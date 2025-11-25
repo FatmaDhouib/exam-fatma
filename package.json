@@ -5,8 +5,10 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:backend": "ng build --output-path backend/www --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "start-server": "node server.js",
     "serve:ssr:exam-fatma": "node dist/exam-fatma/server/server.mjs"
   },
   "prettier": {
